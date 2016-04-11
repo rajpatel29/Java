@@ -8,7 +8,8 @@ package Abstract_Class;
 //4>	If we declare abstract method with static compiler will throw an error.
 //5>	its not possible to declare abstract method with final keyword
 //6>	its not possible to declare abstract method with private .
-//		but we can declare it as public default, protect
+//		public, protected and default are valid.
+//		static, final and private are invalid.
 
 
 public abstract class AbstractClass 
