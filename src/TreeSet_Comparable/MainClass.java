@@ -3,6 +3,15 @@ package TreeSet_Comparable;
 import java.util.Iterator;
 import java.util.TreeSet;
 
+//						Comparable							//Comparator
+//Package				java.lang.Comparable				java.util.Comparator
+//Sorting logic			Must be in Same class				Separate class
+//Method definition		public int compareTo(Object obj)	public int compare(Object obj1, Object obj2)
+//Method call			Collections.sort(list)				Collections.sort(list, new OtherSortClass())
+//Purpose				Natural Sorting						Custom Sorting
+
+
+
 public class MainClass 
 {
 	public static void main(String args[])
