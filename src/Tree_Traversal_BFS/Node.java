@@ -1,4 +1,4 @@
-package Tree_Traversal_BFS_level_by_level;
+package Tree_Traversal_BFS;
 
 public class Node
 {

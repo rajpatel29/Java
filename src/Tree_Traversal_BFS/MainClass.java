@@ -1,4 +1,4 @@
-package Tree_Traversal_BFS_level_by_level;
+package Tree_Traversal_BFS;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -18,7 +18,6 @@ public class MainClass
         System.out.println("Level by Level traversal ");
         
         printLevelOrder();
-        
 	}
 
 	private static void printLevelOrder() 
@@ -41,11 +40,5 @@ public class MainClass
 				queue.add(temp.right);
 			}
 		}
-		
 	}
-	
-	
-	
-	
-	
 }

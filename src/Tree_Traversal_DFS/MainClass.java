@@ -1,4 +1,4 @@
-package Tree_Traversal_DFS_Inorder;
+package Tree_Traversal_DFS;
 
 public class MainClass 
 {
